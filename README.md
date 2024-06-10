@@ -1,5 +1,8 @@
 # Hello CrewAI
 
+- <https://github.com/joaomdmoura/crewAI>
+- <https://docs.crewai.com>
+
 ```sh
 python3 -m venv crew_env
 source crew_env/bin/activate

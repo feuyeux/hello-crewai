@@ -4,14 +4,15 @@
 - <https://docs.crewai.com>
 
 ```sh
-python3 -m venv crew_env
-source crew_env/bin/activate
-pip install 'crewai[tools]'
+sh install.sh
+```
+
+```sh
+source crewai_env/Scripts/activate
 python hello_crewai.py
 ```
 
 ```sh
-python hello_crewai.py
  [DEBUG]: == Working Agent: Math Professor
  [INFO]: == Starting Task: what is 3 + 5
 

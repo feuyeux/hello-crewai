@@ -8,7 +8,9 @@ sh install.sh
 ```
 
 ```sh
-source crewai_env/Scripts/activate
+# windows
+# source crewai_env/Scripts/activate
+source crewai_env/bin/activate
 python hello_crewai.py
 ```
 

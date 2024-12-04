@@ -3,7 +3,8 @@
 SCRIPT_DIR=$(cd "$(dirname "$0")" && pwd -P)
 cd "$SCRIPT_DIR" || exit
 
-python -m venv crewai_env
+# Create a virtual environment use python3.11
+python3.11 -m venv crewai_env
 
 if [[ "$(uname -s)" == *"Linux"* ]] || [[ "$(uname -s)" == *"Darwin"* ]]; then
     echo "install on WSL, Linux or macOS"

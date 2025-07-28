@@ -1,6 +1,7 @@
 # Hello CrewAI
 
-- <https://github.com/joaomdmoura/crewAI>
+- ~~<https://github.com/joaomdmoura/crewAI>~~
+- https://github.com/crewAIInc/crewAI
 - <https://docs.crewai.com>
 
 ```sh

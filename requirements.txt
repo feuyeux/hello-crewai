@@ -1,1 +1,1 @@
-crewai[tools]==0.86.0
+crewai[tools]>=0.148.0

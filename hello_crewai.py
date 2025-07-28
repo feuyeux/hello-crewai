@@ -7,7 +7,7 @@ os.environ["OPENAI_API_KEY"] = "NA"
 
 # Configure the local Ollama service
 llm = ChatOpenAI(
-    model="ollama/llama3.2",  # Use the correct model name for Ollama
+    model="ollama/qwen2.5",  # Use the correct model name for Ollama
     # Ensure this is the correct base URL for your local Ollama service
     base_url="http://localhost:11434/v1"
 )
